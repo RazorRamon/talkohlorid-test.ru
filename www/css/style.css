@@ -1,0 +1,1352 @@
+/* Verstal: V V P */
+/* portnovlaboratory.ru */
+
+/* General styles */
+
+html {
+	width: 100%;
+	background-color: #fff;
+}
+
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+* {
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+
+.clear_div {
+	clear: both;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+header {
+	background: #fff;
+	/*width: 1181px;*/
+	margin: 0 auto;
+}
+
+/* HEAD_BLOCK */
+
+header .wrap_head_block {
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	height: 25px;
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+	z-index: 10;
+}
+
+header .wrap_podklad {
+	position: relative;
+	width: 1181px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+header .podklad {
+	position: absolute;
+	background-color: #a4a9ac;
+	width: 1181px;
+	height: 50px;
+	z-index: 0;
+}
+
+header .head_block {
+	position: relative;
+	background: url('/images/bg_shapka.png') 0px 0px no-repeat;
+	width: 1181px;
+	height: 125px;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+#logo {
+	display: block;
+	position: absolute;
+	background: url('/images/logo.png') 0px 0px no-repeat;
+	width: 180px;
+	height: 80px;
+	margin: 25px 0 20px 236px;
+}
+
+header .slogan {
+	position: absolute;
+	line-height: 17px;
+	color: #614e48;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	font-weight: bold;
+	margin: 18px 0 20px 484px;
+}
+
+header .phone {
+	position: absolute;
+	background: url('/images/icon_phone.png') 0px 0px no-repeat;
+	padding: 11px 0 0 53px;
+	height: 40px;
+	line-height: 30px;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #000;
+	margin: 63px 0 0 485px;
+}
+
+header .phone span {
+	color: #9e9e9e;
+}
+
+header .mail {
+	position: absolute;
+	background: url('/images/icon_e-mail.png') 0px 0px no-repeat;
+	padding: 11px 0 0 53px;
+	height: 40px;
+	line-height: 30px;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #000;
+	margin: 63px 0 0 771px;
+	text-decoration: none;
+}
+
+header .mail span {
+	color: #9e9e9e;
+}
+
+/* SLIDER_BLOCK */
+
+header .wrap_slider_block {
+	position: relative;
+	background-color: #a4a9ac;
+	width: 100%;
+	height: 430px;
+	padding-top: 57px;
+	z-index: 0;
+}
+
+header .slider {
+	position: relative;
+	width: 1183px;
+	height: 352px;
+	margin: 0px auto 0;
+}
+
+header .imgg {
+	position: absolute;
+	z-index: 10;
+}
+
+header .frame_slider {
+	position: absolute;
+	width: 1183px;
+	height: 352px;
+	z-index: 100;
+}
+
+/* SLIDER-MINI_BLOCK */
+
+header .wrap_slider-mini_block {
+	position: relative;
+	background-color: #a4a9ac;
+	width: 100%;
+	height: 222px;
+	padding-top: 57px;
+	z-index: 0;
+}
+
+header .slider-mini {
+	position: relative;
+	width: 1183px;
+	height: 142px;
+	margin: 0px auto 0;
+}
+
+header .imgg {
+	position: absolute;
+	z-index: 10;
+}
+
+header .frame_slider-mini {
+	position: absolute;
+	width: 1183px;
+	height: 142px;
+	z-index: 100;
+}
+
+/* MENU_BLOCK */
+
+header .wrap_menu_block {
+	position: relative;
+	background: url('/images/bg_wrap-menu.png') repeat-x;
+	width: 100%;
+	height: 486px;
+	z-index: 10;
+}
+
+header .menu_block {
+	position: relative;
+	background: url('/images/bg_menu.png') 0px -1px no-repeat;
+	width: 1181px;
+	height: 472px;
+	margin: 0 auto;
+}
+
+/* MENU-MINI_BLOCK */
+
+header .wrap_menu-mini_block {
+	position: relative;
+	background: url('/images/bg_wrap-menu-mini.png') repeat-x;
+	width: 100%;
+	height: 56px;
+	z-index: 10;
+}
+
+header .menu-mini_block {
+	position: relative;
+	background: url('/images/bg_menu-mini.png') 0px 0px no-repeat;
+	width: 1181px;
+	height: 56px;
+	margin: 0 auto;
+}
+
+/* TOP_MENU */
+
+header .top_menu {
+	width: 1212px;
+	height: 45px;
+	margin-left: -15px;
+}
+
+header .top_menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+header .top_menu ul li {
+	display: block;
+	float: left;
+	position: relative;
+	width: 202px;
+	height: 45px;
+	padding: 15px 0;
+	margin: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+header .top_menu ul li a {
+	width: 190px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	text-decoration: none;
+}
+
+header .top_menu ul li:hover a {
+	color: #000;
+}
+
+header .top_menu ul li.active a {
+	color: #000;
+}
+
+/* SECTION_MENU */
+
+header .section_menu {
+	width: 1183px;
+	height: 237px;
+	margin: 57px 0 0;
+}
+
+header .section_menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+header .section_menu ul li {
+	float: left;
+	width: 206px;
+	height: 237px;
+	margin-right: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+
+header .section_menu ul li:last-child {
+	margin-right: 0px;
+}
+
+header .section_menu ul li a {
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	text-decoration: none;
+}
+
+header .section_menu ul li .over {
+	position: absolute;
+	display: none;
+	background: url('/images/sect_over.png') 0px 0px no-repeat;
+	width: 160px;
+	height: 47px;
+	margin: 138px 0 0 24px;
+}
+
+header .section_menu ul li:hover a {
+	color: #000;
+}
+
+header .section_menu ul li:hover .over {
+	display: block;
+}
+
+header .price {
+	position: absolute;
+	background: url('/images/icon_price.png') 0px 0px no-repeat;
+	padding: 22px 0 0 80px;
+	height: 69px;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #ef4123;
+	margin: 50px 0 0 487px;
+	text-decoration: none;
+}
+
+header .price:hover {
+	color: #000;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+
+main {
+	background: #fff;
+	/*width: 1181px;*/
+	margin: 0 auto;
+}
+
+/* ABOUT_BLOCK */
+
+main .wrap_about_block {
+	
+	position: relative;
+	background: url('/images/bg_wrap-about.png') 0px 240px repeat-x;
+	width: 100%;
+	height: 570px;
+	z-index: 1;
+}
+
+main .about_block {
+	position: relative;
+	background: url('/images/about-arrows.png') 203px 215px no-repeat;
+	width: 1181px;
+	height: 570px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+main h1 {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: normal;
+}
+
+main p {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 16px;
+}
+
+main .left_text {
+	float: left;
+	width: 572px;
+	margin: 0px 40px -10px 0;
+	text-align: justify;
+}
+
+main .right_text {
+	float: right;
+	width: 567px;
+	margin: 0px 0px -10px 0;
+	text-align: justify;
+}
+
+main .more {
+	float: right;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 16px;
+	text-decoration: none;
+}
+
+main .more:hover {
+	color: #000;
+}
+
+/* SECTION_MENU */
+
+main .about_boxes_menu {
+	width: 1186px;
+	height: 297px;
+	margin-top: -18px;
+}
+
+main .about_boxes_menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+main .about_boxes_menu ul li {
+	float: left;
+	width: 214px;
+	height: 297px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+main .about_boxes_menu ul li:first-child {
+	margin-right: 55px;
+	cursor: auto;
+}
+
+main .about_boxes_menu ul li:last-child {
+	margin-right: 0px;
+}
+
+main .about_boxes_menu ul li a {
+	text-decoration: none;
+}
+
+main .about_boxes_menu ul li .over {
+	position: absolute;
+	display: none;
+	background: url('/images/about_box-over.png') 0px 0px no-repeat;
+	width: 162px;
+	height: 53px;
+	margin: 139px 0 0 26px;
+}
+
+main .about_boxes_menu ul li a:hover .over {
+	display: block;
+}
+
+/* ALLPROJECT_BLOCK */
+
+main .wrap_allproject_block {
+	position: relative;
+	background: url('/images/bg_wrap-allproject.png') 0px 0px repeat-x;
+	width: 100%;
+	height: 468px;
+	margin-top: -60px;
+	z-index: 1;
+}
+
+main .allproject_block {
+	position: relative;
+	background: url('/images/bg_allproject.png') 0px 5px no-repeat;
+	padding: 15px 0;
+	width: 1183px;
+	height: 451px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+main .allproject {
+	position: absolute;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	line-height: 26px;
+	text-decoration: none;
+	margin: 380px 0 0 520px;
+}
+
+main .allproject:hover {
+	color: #000;
+}
+
+main .project_anons {
+	overflow: hidden;
+	float: left;
+	width: 267px;
+	height: 270px;
+	text-align: center;
+	margin: 15px 38px 0 0;
+}
+
+main .project_anons:last-child {
+	margin-right: 0px;
+}
+
+main .project_anons a.text {
+	display: block;
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 15px;
+	text-decoration: none;
+	margin-top: 1px;
+}
+
+main .project_anons a.text:first-line {
+	color: #ef4123;
+}
+
+main .project_anons:hover a.text:first-line {
+	color: #000;
+}
+
+/* NEWS_BLOCK */
+
+main .wrap_news_block {
+	position: relative;
+	background-color: #eaeaea;
+	width: 100%;
+	height: 678px;
+	margin-top: 30px;
+	z-index: 1;
+}
+
+main .news_block {
+	position: relative;
+	background: url('/images/bg_news.png') 0px 0px no-repeat;
+	width: 1181px;
+	height: 679px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+main .news_block .left_text {
+	float: left;
+	width: 552px;
+	margin: 10px 40px 0px 0;
+	text-align: justify;
+}
+
+main .news_block .right_text {
+	float: right;
+	width: 552px;
+	margin: 10px 0px 0px 0;
+	text-align: justify;
+}
+
+main .news_anons {
+	overflow: hidden;
+	width: 552px;
+	height: 140px;
+	margin: 35px 0px 0 0;
+}
+
+main .news_anons img {
+	float: left;
+	margin-right: 20px;
+}
+
+main .news_anons .date {
+	display: block;
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	margin: 0px 0 10px;
+}
+
+main .news_anons a.text {
+	display: block;
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 1px;
+}
+
+main .news_anons a.text:first-line {
+	color: #ef4123;
+}
+
+main .news_anons:hover a.text:first-line {
+	color: #000;
+}
+
+main .allnews {
+	display: block;
+	background: url('/images/line_allnews.png') 0px 3px no-repeat;
+	padding-left: 200px; 
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	line-height: 17px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 35px 0 0 0;
+}
+
+main .allnews:hover {
+	color: #000;
+}
+
+/* FOS_BLOCK */
+
+main .wrap_fos_block {
+	position: relative;
+	background: url('/images/bg_wrap-fos.png') 0px 0px repeat-x;
+	width: 100%;
+	height: 440px;
+	margin: 4px 0 -25px;
+	z-index: 1;
+}
+
+main .fos_block {
+	position: relative;
+	background: url('/images/bg_fos.png') 0px 1px no-repeat;
+	padding: 25px 0 0;
+	width: 1181px;
+	height: 438px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+main .fos_block .left_text {
+	width: 578px;
+	margin-right: 20px;
+}
+
+main .fos_block .right_text {
+	width: 567px;
+}
+
+/* FORMA */
+
+main .form_modal {
+	padding: 0px;
+	margin: 36px 0 0;
+}
+
+main .form_modal label {
+	display: block;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	margin-bottom: 8px;
+	margin: 10px 0 0;
+}
+
+main .form_modal label.line_field {
+	margin: 0;
+}
+
+main .form_modal label.line_field input {
+	margin: 0px 10px 0 0;
+}
+
+main .form_modal .starrequired {
+	color: #f00; 
+	font-size: 15px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+}
+
+main .form_modal textarea {
+	float: right;
+	background-color: #f0f0f0;
+	width: 567px !important;
+	height: 115px !important;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	-webkit-box-shadow: inset 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px;
+	text-align: left;
+	border: none;
+	margin: 0px 0px 0 0;
+}
+
+main .form_modal textarea::-webkit-input-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal textarea:-moz-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal textarea:-ms-input-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal input {
+	float: right;
+	background-color: #ebebeb;
+	width: 490px;
+	height: 28px;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	-webkit-box-shadow: inset 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	text-align: left;
+	border: none;
+}
+
+main .form_modal input::-webkit-input-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal input:-moz-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal input:-ms-input-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal input .placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal input.short {
+	float: right;
+	width: 180px;
+	height: 40px;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	margin: 0px 0 0 37px;
+}
+
+main .form_modal button {
+	background-color: transparent;
+	width: 290px;
+	height: 45px;
+	border: 0px;
+	color: #ed1c24;
+	font-size: 17px;
+	font-family: "Trebuchet MS";
+	cursor: pointer;
+	text-align: center;
+	margin: 25px 447px;
+}
+
+main .form_modal button:hover {
+	color: #000;
+}
+
+/* ------------ */
+/* LEFT_SITEBAR */
+/* ------------ */
+
+#left_sitebar {
+	float: left;
+	width: 200px;
+	margin-right: 38px;
+}
+
+/* CATALOG_MENU */
+
+#left_sitebar ul.catalog {
+	background: url('/images/title-catalog.png') 0px 0px no-repeat;
+	margin: 7px 0px;
+	width: 200px;
+	list-style: none;
+	padding: 48px 0;
+	text-align: left;
+}
+
+#left_sitebar ul.catalog>li {
+	background: url('/images/marker_level-1.png') 0px 6px no-repeat;
+	padding: 3px 22px;
+	cursor: pointer;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+#left_sitebar ul.catalog>li a {
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#left_sitebar ul.catalog>li.active a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li:hover a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li.expand {
+	background: url('/images/marker_level-1_active.png') 0px 6px no-repeat;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open {
+	margin: 0px;
+	width: 200px;
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open li {
+	background: url('/images/marker_level-2.png') 0px 4px no-repeat;
+	padding: 0px 19px;
+	cursor: pointer;
+	line-height: 17px;
+	margin-top: 10px;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open li a {
+	line-height: 17px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	text-decoration: none;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open li.active a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open li:hover a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open li.expand {
+	background: url('/images/marker_level-2_active.png') 0px 4px no-repeat;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open {
+	margin: 0px;
+	width: 200px;
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open li {
+	background: url('/images/marker_level-3.png') 0px 4px no-repeat;
+	padding: 0px 17px;
+	cursor: pointer;
+	line-height: 15px;
+	margin-top: 8px;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open li a {
+	line-height: 15px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open li.active a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open li:hover a {
+	color: #000;
+}
+
+#left_sitebar ul.catalog>li.expand>ul.open>li.expand>ul.open li.expand {
+	background: url('/images/marker_level-3_active.png') 0px 4px no-repeat;
+}
+
+#left_sitebar .button_price {
+	display: block;
+	background: url('/images/button_price.png') 0px 0px no-repeat;
+	width: 198px;
+	height: 73px;
+	padding: 32px 0 0 78px;
+	line-height: 17px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	text-decoration: none;
+	margin: -20px 0 0px;
+}
+
+#left_sitebar .button_price:hover {
+	color: #000;
+}
+
+/* --------- */
+/* CONTENT */
+/* --------- */
+
+main .wrap_content_block {
+	position: relative;
+	background-color: #fff;
+	width: 1181px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+#content {
+	float: right;
+	width: 943px;
+	margin: -5px 0 0;
+}
+
+/* CATALOG */
+
+main .filtr {
+	background: url('/images/bg_filtr.png') 0px 0px no-repeat;
+	width: 942px;
+	height: 46px;
+	margin: 5px 0 0;
+}
+
+main .filtr b {
+	display: block;
+	float: left;
+	width: 166px;
+	line-height: 38px;
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	text-align: center;
+}
+
+main .filtr ul {
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+main .filtr ul li {
+	float: left;
+	display: block;
+	width: 171px;
+	height: 30px;
+	margin-right: 6px;
+	cursor: pointer;
+	text-align: center;
+}
+
+main .filtr ul li a {
+	line-height: 38px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	text-decoration: none;
+}
+
+main .filtr ul li:hover a {
+	color: #000;
+}
+
+main .filtr ul li.active {
+	background: url('/images/filtr_active.png') 10px 0px no-repeat;
+}
+
+main .filtr ul li.active a {
+	color: #000;
+}
+
+main .tovar_preview {
+	float: left;
+	background: url('/images/bg_tovar_preview.png') 0px 0px no-repeat;
+	width: 295px;
+	height: 430px;
+	padding: 31px;
+	margin: 38px 29px 10px 0;
+}
+
+main .tovar_preview:nth-child(3n) {
+	margin-right: 0px;
+}
+
+main .tovar_preview>.imgage_preview {
+	display: table-cell;
+	width: 231px;
+	height: 231px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 1px;
+}
+
+main .tovar_preview>.imgage_preview img {
+	max-width: 231px;
+	max-height: 231px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+main .tovar_preview>.name_tovar {
+	display: inline-block;
+	line-height: 18px;
+	color: #ef4123;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	text-decoration: none;
+	margin: 20px 0 17px 0px;
+}
+
+main .tovar_preview>.name_tovar:hover {
+	color: #000;
+}
+
+main .tovar_preview>.price {
+	display: inline-block;
+	line-height: 20px;
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+}
+
+/* TOVAR */
+
+main .tovar_img-block {
+	float: left;
+	width: 428px;
+	margin: 20px 35px 0 0;
+}
+
+main .tovar_img-block>.img_wrap {
+	display: table-cell;
+	background: url('/images/bg_tovar.png') 0px 0px no-repeat;
+	width: 428px;
+	height: 430px;
+	padding: 7px 10px;
+	text-align: center;
+    vertical-align: middle;
+}
+
+main .tovar_img-block>.img_wrap img {
+    border: medium none;
+    max-height: 345px;
+    max-width: 345px;
+	margin: 0 2px 0 0;
+}
+
+/* TOVAR_TEXT-BLOCK */
+
+main .tovar_text-block {
+	float: right;
+	width: 480px;
+	margin: 20px 0px 0 0px;
+}
+
+main .tovar_text-block h2 {
+    line-height: 24px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+main .tovar_text-block>.price {
+	display: inline-block;
+    line-height: 28px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 26px;
+	font-weight: bold;
+	margin: 20px 0 50px;
+}
+
+main .tovar_text-block p {
+	line-height: 16px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+	text-align: justify;
+}
+
+main .tovar_text-block h3 {
+    line-height: 16px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0 0px;
+}
+
+main .tovar_text-block ul {
+	margin: 0px 0 10px 15px;
+	padding: 0px;
+	list-style: disc outside;
+}
+
+main .tovar_text-block ul li {
+	line-height: 16px;
+	color: #000;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+}
+
+/* FORMA-TOVARA */
+
+main .form_modal-tovar {
+	padding: 0px;
+	margin: 36px 0 0;
+}
+
+main .form_modal-tovar .left_text {
+	float: left;
+	width: 450px;
+	margin: 0px 40px 0px 0;
+	text-align: justify;
+}
+
+main .form_modal-tovar .right_text {
+	float: right;
+	width: 450px;
+	margin: 0px 0px 0px 0;
+	text-align: justify;
+}
+
+main .form_modal-tovar label {
+	display: block;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	margin-bottom: 8px;
+	margin: 10px 0 0;
+}
+
+main .form_modal-tovar label.line_field {
+	margin: 0;
+}
+
+main .form_modal-tovar .starrequired {
+	color: #f00; 
+	font-size: 15px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+}
+
+main .form_modal-tovar textarea {
+	float: right;
+	background-color: #f0f0f0;
+	width: 450px !important;
+	height: 115px !important;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	-webkit-box-shadow: inset 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px;
+	text-align: left;
+	border: none;
+	margin: 0px 0px 0 0;
+}
+
+main .form_modal-tovar textarea::-webkit-input-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal-tovar textarea:-moz-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal-tovar textarea:-ms-input-placeholder {
+	color: #000;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+}
+
+main .form_modal-tovar input {
+	float: right;
+	background-color: #ebebeb;
+	width: 370px;
+	height: 28px;
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	-webkit-box-shadow: inset 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	text-align: left;
+	border: none;
+}
+
+main .form_modal-tovar input::-webkit-input-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal-tovar input:-moz-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal-tovar input:-ms-input-placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal-tovar input .placeholder {
+	color: #000; 
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
+main .form_modal-tovar input.short {
+	float: right;
+	width: 180px;
+	height: 40px;
+	color: #818181; 
+	font-size: 22px;
+	font-family: "Trebuchet MS";
+	margin: 0px 0 0 43px;
+}
+
+main .form_modal-tovar .wrap_tovar-button {
+	display: block;
+	background: url('/images/wrap_tovar-button.png') 0px 0px no-repeat;
+	width: 942px;
+	height: 46px;
+	text-align: center;
+	margin: 40px 0 90px;
+}
+
+main .form_modal-tovar button {
+	background-color: transparent;
+	width: 200px;
+	height: 30px;
+	border: 0px;
+	color: #ed1c24;
+	font-size: 17px;
+	font-family: "Trebuchet MS";
+	cursor: pointer;
+	text-align: center;
+	margin: 0px auto;
+}
+
+main .form_modal-tovar button:hover {
+	color: #000;
+}
+
+/* ABOVE-FOOTER_BLOCK */
+
+main .above-footer_block {
+	position: relative;
+	background: url('/images/bg_above-footer.png') 0px 0px repeat-x;
+	width: 100%;
+	height: 102px;
+	margin: 4px 0 0px;
+	z-index: 1;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+footer {
+	background-color: #7a7a7a;
+	width: 100%;
+	margin: 0px auto;
+	height: 140px;
+}
+
+footer .copyright {
+	width: 1181px;
+	padding-top: 45px;
+	color: #999;
+	font-family: "Trebuchet MS";
+	font-size: 50px;
+	margin: 0px auto;
+}
+
+footer .creator {
+	display: inline-block;
+	color: #b5b5b5;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	margin: 0px 0px 0px 10px;
+}
+
+footer .creator a {
+	color: #b5b5b5;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	text-decoration: none;
+}
+
+footer .creator a:hover {
+	color: #000;
+}
