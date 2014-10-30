@@ -1138,6 +1138,78 @@ main .tovar_text-block ul li {
     font-size: 14px;
 }
 
+/* SCHEMA_BLOCK */
+
+main .schema_block {
+	margin: 40px 0px;
+}
+
+main .schema_block .schema_wrap {
+	float: left;
+	display: table-cell;
+	position: relative;
+	width: 208px;
+	color: #ef4123;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+	text-align: center;
+    vertical-align: middle;
+	margin-right: 37px
+}
+
+main .schema_block .schema_wrap:last-child {
+	margin-right: 0px
+}
+
+main .schema_block .schema_wrap img {
+	margin-bottom: 5px;
+}
+
+main .schema_block .schema_wrap .schem_lupa {
+	display: none;
+	position: absolute;
+	background: url('/images/schem_lupa.png') 0px 0px no-repeat;
+    width: 109px;
+    height: 110px;
+	top: 0px;
+	margin: 100px 0 0 55px;
+}
+
+main .schema_block .schema_wrap:hover .schem_lupa {
+	display: block;
+}
+
+main .schema_block .schema_wrap:hover {
+	color: #000;
+}
+
+main .schema_block .schema_wrap.highslide img {
+    cursor: pointer !important;
+	border: 1px solid #d5d5d5 !important;
+}
+
+
+main .schema_block .download-pdf {
+	display: block;
+	background: url('/images/bg_tovar-download-pdf.png') 0px 0px no-repeat;
+	width: 198px;
+	height: 56px;
+	padding-left: 70px;
+	line-height: 46px;
+	color: #ef4123;
+	font-size: 15px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	cursor: pointer;
+	text-align: left;
+	text-decoration: none;
+	margin: 10px auto;
+}
+
+main .schema_block .download-pdf:hover {
+	color: #000;
+}
+
 /* FORMA-TOVARA */
 
 main .form_modal-tovar {

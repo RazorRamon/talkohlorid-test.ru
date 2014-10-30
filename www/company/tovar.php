@@ -27,6 +27,33 @@
 				}, 5000);	
 			});
 		</script>
+		
+		<script type="text/javascript" src="/js/highslide.js"></script>
+		<link rel="stylesheet" type="text/css" href="/js/highslide.css">
+
+		<script type="text/javascript">
+			hs.graphicsDir = '/js/graphics/';
+			hs.align = 'center';
+			hs.transitions = ['expand', 'crossfade'];
+			hs.outlineType = 'rounded-white';
+			hs.fadeInOut = true;
+
+			//hs.dimmingOpacity = 0.75;
+
+			// Add the controlbar
+			hs.addSlideshow({
+				//slideshowGroup: 'group1',
+				interval: 5000,
+				repeat: false,
+				useControls: true,
+				fixedControls: 'fit',
+				overlayOptions: {
+					opacity: 0.75,
+					position: 'bottom center',
+					hideOnMouseOut: true
+				}
+			});
+		</script>
 
 	</head>
 	<body>
@@ -164,9 +191,35 @@
 							Диаметр дымохода: 129 мм</p>
 					</div>
 					<div class="clear_div">&nbsp;</div>
+					<div class="schema_block">
+						<div>
+							<a href="/images/tovar_schema-1.jpg" class="schema_wrap highslide" onclick="return hs.expand(this)">
+								<img src="/images/tovar_schema-1-mini.png" />
+								<div class="schem_lupa"></div>
+								Правое 20 «Президент»
+							</a>
+							<a href="/images/tovar_schema-2.jpg" class="schema_wrap highslide" onclick="return hs.expand(this)">
+								<img src="/images/tovar_schema-2-mini.png" />
+								<div class="schem_lupa"></div>
+								Левое 20 «Президент»
+							</a>
+							<a href="/images/tovar_schema-3.jpg" class="schema_wrap highslide" onclick="return hs.expand(this)">
+								<img src="/images/tovar_schema-3-mini.png" />
+								<div class="schem_lupa"></div>
+								Верхнее 20 «Президент»
+							</a>
+							<a href="/images/tovar_schema-4.jpg" class="schema_wrap highslide" onclick="return hs.expand(this)">
+								<img src="/images/tovar_schema-4-mini.png" />
+								<div class="schem_lupa"></div>
+								Схема сборки
+							</a>
+						</div>
+						<div class="clear_div">&nbsp;</div>
+						<a href="#" target="_blank" class="download-pdf">Скачать PDF</a>
+					</div>
+					<div class="clear_div">&nbsp;</div>
 					<h1>Отправить заявку</h1>
 					<form class="form_modal-tovar" method="post" action="#">
-					
 						<div class="left_text">
 							<label class="line_field" for="USER_NAME">Имя<span class="starrequired">*</span> <input type="text" name="USER_NAME" maxlength="50" size="30" value="" required /></label>
 							<div style="margin-bottom: -5px;" class="clear_div">&nbsp;</div>
